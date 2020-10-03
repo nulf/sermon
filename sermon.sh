@@ -8,5 +8,9 @@ command=$1
 # Second parameter is the data to input to the command
 parameter=$2
 
+echo "$1"
+echo "$2"
+
+ssh "$1" uptime
 
 
