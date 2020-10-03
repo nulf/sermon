@@ -22,10 +22,10 @@ case "$1" in
     ssh "$2" df -h
     ;;
 
-#  PATTERN_N)
-#    STATEMENTS
-#    ;;
-#
+  top5)
+    ps -Ao user,pid,pcpu,comm --sort=-pcpu | head -n 6
+    ;;
+
   *)
     echo "Command not found"
     ;;
