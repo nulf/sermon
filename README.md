@@ -1,1 +1,1 @@
-Sermon is a bash based server health checking tool. Made to act fast and provide top level info directly in the terminal.
+Sermon is a bash based server health checking tool. Made to act fast and provide quick feedback about current server load, diskspace and more. You can either run one command or let Sermon cykle through all availade types of checks.
