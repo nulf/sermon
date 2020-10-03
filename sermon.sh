@@ -1,6 +1,5 @@
 #!/bin/bash
-
-# Sermon connects to a list of servers using the current users ssh-keys and relays back the current server load
+# Sermon connects to a list of servers and output's info about the servers current health status
 
 # Fist parameter is the command to run
 command=$1
