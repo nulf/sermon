@@ -11,6 +11,22 @@ parameter=$2
 echo "$1"
 echo "$2"
 
-ssh "$1" uptime
+# CHeck what command should be run
+case "$1" in
 
+  uptime)
+    ssh "$2" uptime
+    ;;
 
+#  PATTERN_2)
+#    STATEMENTS
+#    ;;
+
+#  PATTERN_N)
+#    STATEMENTS
+#    ;;
+#
+  *)
+    echo "Command not found"
+    ;;
+esac
