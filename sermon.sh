@@ -18,9 +18,9 @@ case "$1" in
     ssh "$2" uptime
     ;;
 
-#  PATTERN_2)
-#    STATEMENTS
-#    ;;
+  disk)
+    ssh "$2" df -h
+    ;;
 
 #  PATTERN_N)
 #    STATEMENTS
